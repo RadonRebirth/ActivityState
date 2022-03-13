@@ -69,7 +69,6 @@ public class MainActivity extends Activity {
         Log.d(TAG, "onDestroy");
     }
     private void resetUI() {
-        Toast.makeText(this, "resetUI()", Toast.LENGTH_LONG).show();
         Log.d(TAG, "resetUI");
     }
 }
